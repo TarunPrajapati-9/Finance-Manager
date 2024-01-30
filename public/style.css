@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(to right, #efefefdd, #000000bb);
+  background: linear-gradient(to right, #67c5ffdd, #ff0000bb);
   font-family: Roboto, sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 
 h1 {
   margin: 40px auto;
-  color: #680affe6;
+  color: #0aff80e6;
   text-align: center;
 }
 
@@ -72,11 +72,26 @@ select {
 button {
   color: white;
   border: 0;
-  background-color: #680affe6;
+  background-color: #0aff80e6;
   padding: 6px;
   min-width: 100px;
   border-radius: 4px;
 }
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: 2px solid #3498db;
+  padding: 6px;
+  min-width: 100px;
+  transition: border-color 0.3s ease;
+}
+
+button:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
 
 footer a {
   text-align: center;
@@ -84,4 +99,8 @@ footer a {
   color: #292929;
   margin-top: 40px;
   font-size: 0.9rem;
+}
+
+a:hover {
+  color: antiquewhite;
 }
